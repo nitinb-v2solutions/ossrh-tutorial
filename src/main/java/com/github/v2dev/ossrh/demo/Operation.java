@@ -1,4 +1,4 @@
-package com.github.nyholmniklas.arithmetic;
+package com.github.v2dev.ossrh.demo;
 
 import java.math.BigDecimal;
 
