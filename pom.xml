@@ -7,9 +7,8 @@
     <version>1.0.0-SNAPSHOT</version>
     <packaging>jar</packaging>
 
-    <name>OSSRH Demo Library Tutorial</name>
-    <description>This is a sample library for a tutorial about publishing to Maven Central
-    </description>
+    <name>io.github.nitinb-v2solutions:ossrh-tutorial</name>
+    <description>This is a sample library for a tutorial about publishing to Maven Central</description>
     <url>https://github.com/nitinb-v2solutions/ossrh-tutorial</url>
     <licenses>
         <license>
@@ -21,24 +20,26 @@
         <developer>
             <name>Nitin Bhatnagar</name>
             <email>nitin.bhatnagar@v2solutions.com</email>
-            <organization>com.github.v2dev</organization>
-            <organizationUrl>https://github.com/v2dev</organizationUrl>
+            <organization>com.github.nitinb-v2solutions</organization>
+            <organizationUrl>https://github.com/nitinb-v2solutions</organizationUrl>
         </developer>
     </developers>
     <scm>
         <connection>scm:git:git://github.com/nitinb-v2solutions/ossrh-tutorial.git</connection>
         <developerConnection>scm:git:ssh://github.com:nitinb-v2solutions/ossrh-tutorial.git</developerConnection>
-        <url>http://github.com/ossrh-tutorial/ossrh-tutorial</url>
+        <url>http://github.com/nitinb-v2solutions/ossrh-tutorial/tree/master</url>
     </scm>
-
+   <!-- refer https://central.sonatype.org/publish/publish-guide/#accessing-repositories-->
     <distributionManagement>
         <snapshotRepository>
             <id>ossrh</id>
-            <url>https://oss.sonatype.org/content/repositories/snapshots</url>
+            <!--url>https://oss.sonatype.org/content/repositories/snapshots</url-->
+            <url>https://s01.oss.sonatype.org/content/repositories/snapshots</url>
         </snapshotRepository>
         <repository>
             <id>ossrh</id>
-            <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
+            <!--url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url-->
+            <url>https://s01.oss.sonatype.org/service/local/staging/deploy/maven2/</url>
         </repository>
     </distributionManagement>
 
@@ -113,17 +114,13 @@
                 <extensions>true</extensions>
                 <configuration>
                     <serverId>ossrh</serverId>
-                    <nexusUrl>https://oss.sonatype.org/</nexusUrl>
+                    <!--nexusUrl>https://oss.sonatype.org/</nexusUrl-->
+                    <nexusUrl>https://s01.oss.sonatype.org/</nexusUrl>
                     <autoReleaseAfterClose>true</autoReleaseAfterClose>
                 </configuration>
             </plugin>
         </plugins>
     </build>
-
-
-
-
-
 
 
 </project>
