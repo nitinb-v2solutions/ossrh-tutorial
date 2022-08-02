@@ -10,9 +10,9 @@ public class Operation
 {
     /**
      *  dummy add method
-     * @param x
-     * @param y
-     * @return
+     * @param x dummy desc
+     * @param y dummy desc
+     * @return dummy desc
      */
 	public static BigDecimal add(BigDecimal x, BigDecimal y) {
         return x.add(y);
@@ -20,9 +20,9 @@ public class Operation
 	
     /**
      * dummy substract method
-     * @param x
-     * @param y
-     * @return
+     * @param x dummy desc
+     * @param y dummy desc
+     * @return dummy desc
      */
     public static BigDecimal substract(BigDecimal x, BigDecimal y) {
         return x.subtract(y);
@@ -30,9 +30,9 @@ public class Operation
     
     /**
      * dummy multiply method
-     * @param x
-     * @param y
-     * @return
+     * @param x dummy desc
+     * @param y dummy desc
+     * @return dummy desc
      */
     public static BigDecimal multiply(BigDecimal x, BigDecimal y) {
         return x.multiply(y);
@@ -40,9 +40,9 @@ public class Operation
 
     /**
      * dummy divide method
-     * @param x
-     * @param y
-     * @return
+     * @param x dummy desc
+     * @param y dummy desc
+     * @return dummy desc
      */
     public static BigDecimal divide(BigDecimal x, BigDecimal y) {
         return x.divide(y);
