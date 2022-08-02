@@ -1,4 +1,4 @@
-[![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.github.nyholmniklas/arithmetic/badge.svg)](https://maven-badges.herokuapp.com/maven-central/com.github.nyholmniklas/arithmetic)
-
-# arithmetic
-Example library for tutorial on publishing to Maven Central with OSSRH
+# ossrh-tutorial
+Just Trying to publishing to Maven Central with OSSRH
+Based on youtube video: https://www.youtube.com/watch?v=bxP9IuJbcDQ
+just forked from : https://github.com/nyholmniklas/arithmetic
